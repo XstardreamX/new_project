@@ -1,0 +1,12 @@
+@import "./sprites";    /* 引入sprites.scss檔案*/ 
+
+.icon{
+  &.icon-clock{
+    @include sprite($clock);
+  }
+}
+
+body{
+  background-image: url('../images/image.jpg');  /* 使用相對路徑存取圖片*/
+
+}
